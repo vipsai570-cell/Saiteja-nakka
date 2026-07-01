@@ -1,0 +1,54 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Golden Shield Shadow or Glow -->
+    <path
+        android:fillColor="#33D4AF37"
+        android:pathData="M 54 18 L 20 31 L 20 65 C 20 83 35 97 54 101 C 73 97 88 83 88 65 L 88 31 Z" />
+        
+    <!-- Main Golden Shield -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M 54 20 L 22 33 L 22 65 C 22 81 36 95 54 99 C 72 95 86 81 86 65 L 86 33 Z" />
+
+    <!-- Inner Royal Blue Shield Fill -->
+    <path
+        android:fillColor="#0F3B8C"
+        android:pathData="M 54 24 L 26 35 L 26 65 C 26 78 38 90 54 94 C 70 90 82 78 82 65 L 82 35 Z" />
+
+    <!-- Stylized Crown/Gopuram inside the shield -->
+    <!-- Layer 1 (bottom) -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M 44 65 L 64 65 L 64 68 L 44 68 Z" />
+    <!-- Layer 2 (middle) -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M 46 58 L 62 58 L 62 63 L 46 63 Z" />
+    <!-- Layer 3 (top) -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M 49 51 L 59 51 L 59 56 L 49 56 Z" />
+    <!-- Dome top -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M 51 44 L 57 44 L 57 49 L 51 49 Z" />
+    <!-- Top Spire (Kalasam) -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M 54 36 L 52 42 L 56 42 Z" />
+
+    <!-- Red Namam/Tilak in center of Gopuram -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M 53.5 52 L 54.5 52 L 54.5 62 L 53.5 62 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 51 52 L 52 52 L 52 60 L 51 60 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 56 52 L 57 52 L 57 60 L 56 60 Z" />
+</vector>
